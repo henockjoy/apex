@@ -1,8 +1,8 @@
 FROM python:3.11
 
-WORKDIR /Auto-Filter-Bot
+WORKDIR /apex
 
-COPY . /Auto-Filter-Bot
+COPY . /apex
 
 RUN pip install -r requirements.txt
 
